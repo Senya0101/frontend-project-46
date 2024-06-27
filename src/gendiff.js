@@ -15,5 +15,5 @@ export default(data1, data2) => {
             }
         }
     });
-    return `\n{\n${res}}`;
+    return `{\n${res}}`;
 }

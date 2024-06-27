@@ -1,0 +1,9 @@
+{
+  + country: Russia
+    employed: true
+  - job: Writer
+  + job: Singer
+  - name: Lena Ivanova
+  + name: Katya Skaredneva
+    skill: Normal
+}

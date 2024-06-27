@@ -1,0 +1,20 @@
+authors:
+  Ivan Katkov:
+    age: 23
+    speciality: IT
+    skill: Low
+    publications:
+      - publication1
+  Fedor Pupkin:
+    age: 38
+    speciality: IT
+    skill: Normal 
+    publications:
+      - publication1
+      - publication2
+      - publication3
+      - publication4
+      - publication5
+  Grisha Eger:
+    age: 16
+    speciality: none

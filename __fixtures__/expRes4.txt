@@ -1,0 +1,41 @@
+{
+    authors: {
+        Fedor Pupkin: {
+          - age: 30
+          + age: 38
+          - publications: {
+                0: publication1
+                1: publication2
+                2: publication3
+            }
+          + publications: {
+                0: publication1
+                1: publication2
+                2: publication3
+                3: publication4
+                4: publication5
+            }
+            skill: Normal
+            speciality: IT
+        }
+      + Grisha Eger: {
+            age: 16
+            speciality: none
+        }
+        Ivan Katkov: {
+          - age: 35
+          + age: 23
+          - publications: {
+                0: publication1
+                1: publication2
+                2: publication3
+            }
+          + publications: {
+                0: publication1
+            }
+          - skill: High
+          + skill: Low
+            speciality: IT
+        }
+    }
+}

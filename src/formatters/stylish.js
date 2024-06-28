@@ -28,19 +28,10 @@ const getStylishDiff = (node, depth, iter) => {
   }
 };
 
-
-const formatStylish = (diffTree) => {
+export default(diffTree) => {
     const iter = (nodes, depth = 1) => {
         const newNodes = nodes.map((node) => getStylishDiff(node, depth, iter));
         return newNodes.join('\n');
       };
       return `{\n${iter(diffTree)}\n}`;
-    
-}
-
-export default (diffTree, format) => {
-    switch (format) {
-        case 'stylish':
-          return formatStylish(diffTree);
-      }
 }

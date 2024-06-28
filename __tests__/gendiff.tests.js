@@ -10,18 +10,26 @@ const getFixturePath = (filename) => join(__dirname, '..', '__fixtures__', filen
 const readFixtureFile = (filename) => readFileSync(getFixturePath(filename), 'utf-8');
 
 
-test('Check diff for flat JSON file', () => {
+test('Check diff for flat JSON files with stylish format', () => {
     expect(genDiff(getFixturePath('file1.json'), getFixturePath('file2.json'), 'stylish')).toEqual(readFixtureFile('expRes1.txt'));
   });
 
-  test('Check diff for flat YAML file', () => {
+  test('Check diff for flat YAML files with stylish format', () => {
     expect(genDiff(getFixturePath('file1.yml'), getFixturePath('file2.yml'), 'stylish')).toEqual(readFixtureFile('expRes2.txt'));
   });
 
-  test('Check diff for nested JSON file', () => {
+  test('Check diff for nested JSON files with stylish format', () => {
     expect(genDiff(getFixturePath('nestfile1.json'), getFixturePath('nestfile2.json'), 'stylish')).toEqual(readFixtureFile('expRes3.txt'));
   });
 
-  test('Check diff for nested YAML file', () => {
+  test('Check diff for nested YAML files with stylish format', () => {
     expect(genDiff(getFixturePath('nestfile1.yaml'), getFixturePath('nestfile2.yaml'), 'stylish')).toEqual(readFixtureFile('expRes4.txt'));
+  });
+
+  test('Check diff for nested JSON files with plain format', () => {
+    expect(genDiff(getFixturePath('nestfile1.json'), getFixturePath('nestfile2.json'), 'plain')).toEqual(readFixtureFile('expRes5.txt'));
+  });
+
+  test('Check diff for nested YAML files with plain format', () => {
+    expect(genDiff(getFixturePath('nestfile1.yaml'), getFixturePath('nestfile2.yaml'), 'plain')).toEqual(readFixtureFile('expRes6.txt'));
   });

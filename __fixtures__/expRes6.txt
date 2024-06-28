@@ -1,0 +1,6 @@
+Property 'authors.Fedor Pupkin.age' was updated. From 30 to 38
+Property 'authors.Fedor Pupkin.publications' was updated. From [complex value] to [complex value]
+Property 'authors.Grisha Eger' was added with value: [complex value]
+Property 'authors.Ivan Katkov.age' was updated. From 35 to 23
+Property 'authors.Ivan Katkov.publications' was updated. From [complex value] to [complex value]
+Property 'authors.Ivan Katkov.skill' was updated. From 'High' to 'Low'

@@ -1,3 +1,18 @@
+Flat JSON files stylish output:
+[![asciicast](https://asciinema.org/a/VNTK6dk5PWaxQEbtK5oIBxsOE.svg)](https://asciinema.org/a/VNTK6dk5PWaxQEbtK5oIBxsOE)
+
+Flat YAML files stylish output:
+[![asciicast](https://asciinema.org/a/RgSnZnGsdzH3YL2KRt3zE31iO.svg)](https://asciinema.org/a/RgSnZnGsdzH3YL2KRt3zE31iO)
+
+Nested YAML files stylish output:
+[![asciicast](https://asciinema.org/a/ckEuEqefFCbfbH3gFoPwfLoeq.svg)](https://asciinema.org/a/ckEuEqefFCbfbH3gFoPwfLoeq)
+
+JSON files plain output:
+[![asciicast](https://asciinema.org/a/xp81az1uYi5svEKGg8J093HyY.svg)](https://asciinema.org/a/xp81az1uYi5svEKGg8J093HyY)
+
+JSON files JSON output:
+[![asciicast](https://asciinema.org/a/BL0bwDxzcJcyDNsffaSr3Sj4P.svg)](https://asciinema.org/a/BL0bwDxzcJcyDNsffaSr3Sj4P)
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Senya0101/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Senya0101/frontend-project-46/actions)
 

@@ -7,4 +7,3 @@ export default (filepath1, filepath2, formatType) => {
     const data2 = parseData(filepath2);
     return format(genDiff(data1, data2), formatType);
   };
-  

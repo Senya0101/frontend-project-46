@@ -16,5 +16,4 @@ program
     console.log(genDiff(filepath1, filepath2, option.format));
   });
 
-
 program.parse();

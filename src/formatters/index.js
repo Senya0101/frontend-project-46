@@ -1,6 +1,6 @@
-import formatStylish from './stylish'
-import formatPlain from './plain'
-import formatJSON from './json'
+import formatStylish from './stylish.js'
+import formatPlain from './plain.js'
+import formatJSON from './json.js'
 
 export default (diffTree, format) => {
     switch (format) {

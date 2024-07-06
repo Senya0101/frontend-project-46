@@ -1,5 +1,5 @@
 import parseData from './parser.js';
-import { genDiff } from './gendiff.js';
+import genDiff from './gendiff.js';
 import format from './formatters/index.js';
 
 export default (filepath1, filepath2, formatType) => {

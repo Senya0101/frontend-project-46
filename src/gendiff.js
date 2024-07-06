@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-export default genDiff = (data1, data2) => {
+ const genDiff = (data1, data2) => {
   const keys = _.sortBy(_.union(_.keys(data1), _.keys(data2)));
 
   return keys.map((key) => {
@@ -28,3 +28,5 @@ export default genDiff = (data1, data2) => {
     return { key, type: 'UNCHANGED', value: data1[key] };
   });
 };
+
+export default genDiff;

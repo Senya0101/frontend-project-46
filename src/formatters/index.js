@@ -11,6 +11,6 @@ export default (diffTree, format) => {
         case 'json':
             return formatJSON(diffTree);
         default:
-            throw new Error(`Wrong format ${format}`)
+            return formatStylish(diffTree);
         }
 }

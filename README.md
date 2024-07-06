@@ -9,16 +9,16 @@
 ![Github Actions Badge](https://github.com/Senya0101/frontend-project-46/actions/workflows/github-actions.yml/badge.svg)
 
 Flat JSON files stylish output:
-[![asciicast](https://asciinema.org/a/VNTK6dk5PWaxQEbtK5oIBxsOE.svg)](https://asciinema.org/a/VNTK6dk5PWaxQEbtK5oIBxsOE)
+[![asciicast](https://asciinema.org/a/LCbkxCiv3tEUPsTekiMnJcGn2.svg)](https://asciinema.org/a/LCbkxCiv3tEUPsTekiMnJcGn2)
 
 Flat YAML files stylish output:
-[![asciicast](https://asciinema.org/a/RgSnZnGsdzH3YL2KRt3zE31iO.svg)](https://asciinema.org/a/RgSnZnGsdzH3YL2KRt3zE31iO)
+[![asciicast](https://asciinema.org/a/6uMfPgGha7R4MmLof9WzDAz5G.svg)](https://asciinema.org/a/6uMfPgGha7R4MmLof9WzDAz5G)
 
 Nested YAML files stylish output:
-[![asciicast](https://asciinema.org/a/ckEuEqefFCbfbH3gFoPwfLoeq.svg)](https://asciinema.org/a/ckEuEqefFCbfbH3gFoPwfLoeq)
+[![asciicast](https://asciinema.org/a/426wM4FYjdFrx86wnbBwCcwK5.svg)](https://asciinema.org/a/426wM4FYjdFrx86wnbBwCcwK5)
 
 JSON files plain output:
-[![asciicast](https://asciinema.org/a/xp81az1uYi5svEKGg8J093HyY.svg)](https://asciinema.org/a/xp81az1uYi5svEKGg8J093HyY)
+[![asciicast](https://asciinema.org/a/hayXCME4mcTZVhyQg1rhJtpj5.svg)](https://asciinema.org/a/hayXCME4mcTZVhyQg1rhJtpj5)
 
 JSON files JSON output:
-[![asciicast](https://asciinema.org/a/BL0bwDxzcJcyDNsffaSr3Sj4P.svg)](https://asciinema.org/a/BL0bwDxzcJcyDNsffaSr3Sj4P)
+[![asciicast](https://asciinema.org/a/F2SImRagxDaNfE2kdGKMtYske.svg)](https://asciinema.org/a/F2SImRagxDaNfE2kdGKMtYske)

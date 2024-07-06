@@ -10,5 +10,7 @@ export default (diffTree, format) => {
             return formatPlain(diffTree);
         case 'json':
             return formatJSON(diffTree);
+        default:
+            throw new Error(`Wrong format ${format}`)
         }
 }

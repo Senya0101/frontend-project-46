@@ -25,6 +25,8 @@ const getStylishDiff = (node, depth, iter) => {
       ].join('\n');
     case 'NESTED':
       return `${indent(depth)}  ${node.key}: {\n${iter(node.children, depth + 1)}\n  ${indent(depth)}}`;
+    default:
+      throw new Error('Wrong node type');
   }
 };
 

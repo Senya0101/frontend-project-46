@@ -20,5 +20,7 @@ export default(filepath) => {
         case 'yml':
         case 'yaml':
           return yaml.load(data);
+        default:
+          throw new Error(`Wrong format: '${getExtention(filepath)}'`);
       }
 }

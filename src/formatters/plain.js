@@ -31,6 +31,8 @@ export default (diffTree) => {
           )} to ${stringify(node.value2)}`;
         case 'NESTED':
           return iter(node.children, currentPath).join('\n');
+        default:
+          throw new Error('Wrong node type');
       }
     });
   return iter(diffTree, '').join('\n');
